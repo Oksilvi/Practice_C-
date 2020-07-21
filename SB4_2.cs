@@ -5,16 +5,11 @@ public class Program
 	public static void Main()
 	{
 		Console.WriteLine("Input:");
-		int x, y;
-		x = Convert.ToInt32(Console.ReadLine());
-		y = Convert.ToInt32(Console.ReadLine());
-		Console.WriteLine("Sum:");
-		Console.WriteLine(x + y);
-		Console.WriteLine("Sub:");
-		Console.WriteLine(x - y);
-		Console.WriteLine("Mul:");
-		Console.WriteLine(x * y);
-		Console.WriteLine("Seg:");
-		Console.WriteLine(x / y);
+		int r;
+		r = Convert.ToInt32(Console.ReadLine());
+		double P, pi;
+		pi = 3.14;
+        P = 2 * pi * r;
+		Console.WriteLine(P);	
 	}
 }
