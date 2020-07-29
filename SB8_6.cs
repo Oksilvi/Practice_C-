@@ -9,10 +9,8 @@ public class Program
 		N = Convert.ToInt32(Console.ReadLine());
 		sum = 0;
 		for( i = 0; i <= N; i = i + 1 )
-		{
-			if (i > 0) i = i + 2;
-			sum = sum + i;	
-		}
-		Console.WriteLine(sum);
+			if ( i % 2 != 0 ) 
+			sum = sum + i;	 
+		    Console.WriteLine(sum);
 	}
 }
