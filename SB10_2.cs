@@ -1,5 +1,5 @@
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -7,11 +7,10 @@ public class Program
 		Console.WriteLine("Input:");
 		int N;
 		N = Convert.ToInt32(Console.ReadLine());
-		do
+		while (N > 1)
 		{
-			N --; 
+			N--;
 			Console.WriteLine(N);
 		}
-		while( N > 1 );
 	}
 }
