@@ -10,8 +10,8 @@ public class Program
 		k = 0;
 		while( N > 0 ) 
 		{
-			N /= 2; 
 			if( N % 2 == 1 ) k ++;
+			N /= 2;
 			Console.WriteLine(N);
 		}
 		Console.Write("units" + " " + k);
