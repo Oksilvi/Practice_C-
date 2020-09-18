@@ -11,9 +11,12 @@ public class Program
 		for (int i = 0; i < 100; i++)
 		{
 			array[i] = rand.Next(50) + 1;
+			Console.WriteLine(array[i]);
+		}
+		for (int i = 0; i < 100; i++)
+		{
 			sum += array[i];
 			m = i;
-			Console.WriteLine(array[i]);
 		}
 		Console.WriteLine("summa:" + " " + sum + " " + "mean" + " " + sum / (m + 1));
 	}
