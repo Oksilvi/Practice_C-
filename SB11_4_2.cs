@@ -5,18 +5,23 @@ public class Program
 	public static void Main()
 	{
 		Console.WriteLine("Input:");
-		int N = Convert.ToInt32(Console.ReadLine());
+		int N = Convert.ToInt32(Console.ReadLine()); // number to find
+		int M = Convert.ToInt32(Console.ReadLine()); // array size
 		int k = 0;
-		int [] array = new int[15];
+		int[] array = new int[M];
 		Random rand = new Random();
-		for( int i = 0; i < 15; i++ )
+		for (int i = 0; i < M; i++)
 		{
-			k ++;
 			array[i] = rand.Next(10) + 1;
 			Console.WriteLine(array[i]);
-			if( N == array[i] ) break;
+			if (N == array[i]) break;
 		}
-		if( k < 15 ) Console.WriteLine("Line:" + " " + k); else
+		for (int i = 0; i < M; i++)
+		{
+			k++;
+			if (N == array[i]) break;
+		}
+		if (k < M) Console.WriteLine("Line:" + " " + k); else
 		Console.WriteLine("No values");
 	}
 }
