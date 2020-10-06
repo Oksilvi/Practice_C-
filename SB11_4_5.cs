@@ -14,13 +14,9 @@ public class Program
 			Console.WriteLine(array[i]);
 		}
 		Console.WriteLine("Mirror:");
-		for( int i = 0; i < S; i ++ )
+		for( int i = S - 1; i >= 0; i -- )
 		{
-			if( i == S - 1 )
-			{
-				for( int k = i; k >= 0; k -- )
-					Console.WriteLine(array[k]);
-			}
+			Console.WriteLine(array[i]);
 		}
 	}
 }
