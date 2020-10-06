@@ -18,9 +18,9 @@ public class Program
 		     {
 		          if( array[k] < array[i] )
 			  {
-			      array[i] = array[k] - array[i];
-			      array[k] = array[k] - array[i];
-			      array[i] = array[i] + array[k];
+			      int x = array[k];
+			      array[k] = array[i];
+			      array[i] = x;
 			   }
 		      }
 		      Console.WriteLine(array[i]);
