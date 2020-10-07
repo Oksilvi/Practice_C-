@@ -7,7 +7,7 @@ public class Program
 		Console.WriteLine("Input:");
 		int N = Convert.ToInt32(Console.ReadLine()); // number to find
 		int M = Convert.ToInt32(Console.ReadLine()); // array size
-		int k = 0;
+		int k = -1;
 		int [] array = new int[M];
 		Random rand = new Random();
 		for( int i = 0; i < M; i ++ )
@@ -16,11 +16,13 @@ public class Program
 		}
 		for( int i = 0; i < M; i ++ )
 		{
-			k ++;
 			Console.WriteLine(array[i]);
-			if( N == array[i] ) break;
+			if( N == array[i] )
+			{
+				k = i;
+				break;
+			}
 		}
-		if( k < M ) Console.WriteLine("Line:" + " " + k); else
-		Console.WriteLine("No values");
+		 Console.WriteLine("Index:" + " " + k); 
 	}
 }
