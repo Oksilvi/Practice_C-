@@ -23,6 +23,7 @@ public class Program
 				break;
 			}
 		}
-		 Console.WriteLine("Index:" + " " + k); 
+		 if( k != - 1 ) Console.WriteLine("Index:" + " " + k); else
+		 Console.WriteLine("No values");
 	}
 }
