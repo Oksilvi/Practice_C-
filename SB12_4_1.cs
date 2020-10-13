@@ -9,10 +9,10 @@ public class Program
 		int [,] matrix = new int [M,N];
 		for( int x = 0; x < M; x ++ ) 
 		{
+			Console.WriteLine("Enter values: " + x);
 			for( int y = 0; y < N; y ++ )
 			{				
-		        matrix[x,y] = y;
-				Console.Write(matrix[x,y] + " ");
+		        matrix[x,y] = Convert.ToInt32(Console.ReadLine());
 			}
 			Console.WriteLine();
 		}
