@@ -8,6 +8,7 @@ public class Program
 		int L = Convert.ToInt32(Console.ReadLine()); // measurement 2
 		Random rand = new Random();
 		int [,] array = new int[K,L];
+		int [,] array0 = new int[L, K];
 		for( int x = 0; x < K; x ++ ) 
 		{
 		     for( int y = 0; y < L; y ++ )
@@ -25,18 +26,18 @@ public class Program
 		}
 		Console.WriteLine();
 
-		for( int x = 0; x < K; x ++ ) 
+		for( int y = 0; y < L; y ++ ) 
 		{
-		     for( int y = 0; y < L; y ++ )
+		     for( int x = 0; x < K; x ++ )
 		     {	
-			  array[y,x] = array[y,x];
+			  array0[y,x] = array[x,y];
 		     }
 		}
-		for( int x = 0; x < K; x ++ ) 
+		for( int y = 0; y < L; y ++ ) 
 		{
-		     for( int y = 0; y < L; y ++ )
+		     for( int x = 0; x < K; x ++ )
 		     {	
-		          Console.Write(array[y,x] + " ");
+		          Console.Write(array0[y,x] + " ");
 		     }
 		     Console.WriteLine(" ");
 		}
