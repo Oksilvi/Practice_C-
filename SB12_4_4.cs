@@ -26,12 +26,8 @@ public class Program
 		}
 		Console.WriteLine();
 		for( int x = 0; x < K; x ++ ) 
-		{
-		     for( int y = 0; y < L; y ++ )
-		     {	
-		         if( x == y )
-			     sum += array[x,y]; 
-		     }
+		{	
+			  sum += array[x,x]; 
 		}
 		Console.WriteLine("Summa " + sum);
 	}
