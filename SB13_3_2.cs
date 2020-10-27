@@ -4,8 +4,8 @@ public class Program
 {
 	public static void Main()
 	{
-		string s1 = "21111998";
-		string s2 = "21 11 1998";
+		string s1 = Convert.ToString(Console.ReadLine());
+		string s2 = Convert.ToString(Console.ReadLine());
 		char [] sy1 = s1.ToCharArray();
 		char [] sy2 = s2.ToCharArray();
 		int k = 0;
