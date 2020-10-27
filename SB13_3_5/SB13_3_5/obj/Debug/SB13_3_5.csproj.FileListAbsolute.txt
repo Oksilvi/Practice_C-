@@ -1,0 +1,7 @@
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\bin\Debug\SB13_3_5.exe.config
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\bin\Debug\SB13_3_5.exe
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\bin\Debug\SB13_3_5.pdb
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\obj\Debug\SB13_3_5.csprojAssemblyReference.cache
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\obj\Debug\SB13_3_5.csproj.CoreCompileInputs.cache
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\obj\Debug\SB13_3_5.exe
+F:\OksanaWork\GitHub\SB13_3_5\SB13_3_5\obj\Debug\SB13_3_5.pdb
